@@ -1,19 +1,55 @@
+<h1 class="text-center">List of Projects</h1>
 <table class="table table-striped">
   <thead>
-    <th>Id</th>
-    <th>Name</th>
-    <th>Description</th>
-    <th>Status</th>
+  <th>Id</th>
+  <th>Type of Project</th>
+  <th>Name</th>
+  <th>Description</th>
+  <th>Status</th>
+  <th>Country</th>
   </thead>
-    <tbody>
-      <tr *ngFor="let item of projectList$|async">
-        <td>{{item.id}}</td>
-        <td>{{item.name}}</td>
-        <td>{{item.description}}</td>
-        <td>{{item.projectStatus}}</td>
-        <td>{{item.typeProject}}</td>
+  <tbody>
+    <tr *ngFor="let item of projectList$|async">
+      <td>{{item.id}}</td>
+      <td>{{item.idTypeProject}}</td>
+      <td>{{item.name}}</td>
+      <td>{{item.description}}</td>
+      <td>{{item.projectStatus}}</td>
+      <td>{{item.countryId}}</td>
 
-      </tr>
-    </tbody>
-  
+    </tr>
+  </tbody>
+
 </table>
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Show projects types
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Projects types</h5>
+
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <!--<div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>-->
+    </div>
+  </div>
+</div>
+
+
+
+
+
