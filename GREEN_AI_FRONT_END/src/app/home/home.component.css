@@ -677,7 +677,7 @@ progress {
     /*max-width: 540px;*/
     
   }
-}
+}resume-section
 
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
@@ -12080,7 +12080,7 @@ section.resume-section {
   padding-top: 5rem;
   margin-bottom: 5rem;
   /*max-width: 25rem;*/
-  max-width: 25rem;
+  max-width: 70rem;
 }
 
   section.resume-section .resume-section-content {
