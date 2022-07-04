@@ -10,21 +10,23 @@
   <!-- Font Awesome icons (free version)-->
   <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
   <!-- Google fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+  <!--<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />-->
   <!-- Core theme CSS (includes Bootstrap)-->
   <!--<link href="css/styles.css" rel="stylesheet" />-->
 </head>
 <body id="page-top">
   <!-- Navigation-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">    
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Santiago Astete</span>
       <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/santi.jpg" alt="..." /></span>
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>   
+
     <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav mr-auto">
         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
@@ -35,238 +37,244 @@
       </ul>
     </div>
   </nav>
-  <!-- Page Content-->
-  <div class="container-fluid p-0">
-    <!-- About-->
-    <section class="resume-section" id="about">
-      <div class="resume-section-content">
-        <h1 class="mb-0">
-          Santiago
-          <span class="text-primary">Astete</span>
-        </h1>
-        <div class="subheading mb-5">
-          38, Rue saint georges - 1050 Ixelles - Bruxelles.
-          <a href="mailto:sastetec@hotmail.com">sastetec@hotmail.com</a>
-        </div>
-        <p class="lead mb-5">I am experienced in web developer. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-        <div class="social-icons">
-          <!--<a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>-->
-          <a class="social-icon" href="#!">
-            <svg class="svg-inline--fa fa-linkedin-in" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M100.3 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.6 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.3 61.9 111.3 142.3V448z"></path></svg>
-          </a>
-          <!--<a class="social-icon" href="#!"><i class="fab fa-github"></i></a>-->
-          <a class="social-icon" href="#!">
-            <svg class="svg-inline--fa fa-github" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
-          </a>
+  
+    <!-- Page Content-->
+    <div class="container-fluid p-0">
+    
+      <!-- About-->
+      <section class="resume-section" id="about">
+      <!--<section class="container-fluid w-75 flex-column m-auto resume-section" id="about">-->
+        <div class="resume-section-content">
+        <div >
+          <h1 class="mb-0">
+            Santiago
+            <span class="text-primary">Astete</span>
+          </h1>
+          <div class="subheading mb-5">
+            38, Rue saint georges - 1050 Ixelles - Bruxelles.
+            <a href="mailto:sastetec@hotmail.com">sastetec@hotmail.com</a>
+          </div>
+          <p class="lead mb-5">I am experienced in web developer. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+          <div class="social-icons">
+            <!--<a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>-->
+            <a class="social-icon" href="#!">
+              <svg class="svg-inline--fa fa-linkedin-in" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M100.3 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.6 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.3 61.9 111.3 142.3V448z"></path></svg>
+            </a>
+            <!--<a class="social-icon" href="#!"><i class="fab fa-github"></i></a>-->
+            <a class="social-icon" href="#!">
+              <svg class="svg-inline--fa fa-github" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+            </a>
 
 
-          <!--<a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>-->
-          <a class="social-icon" href="#!">
-            <svg class="svg-inline--fa fa-twitter" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M459.4 151.7c.325 4.548 .325 9.097 .325 13.65 0 138.7-105.6 298.6-298.6 298.6-59.45 0-114.7-17.22-161.1-47.11 8.447 .974 16.57 1.299 25.34 1.299 49.06 0 94.21-16.57 130.3-44.83-46.13-.975-84.79-31.19-98.11-72.77 6.498 .974 12.99 1.624 19.82 1.624 9.421 0 18.84-1.3 27.61-3.573-48.08-9.747-84.14-51.98-84.14-102.1v-1.299c13.97 7.797 30.21 12.67 47.43 13.32-28.26-18.84-46.78-51.01-46.78-87.39 0-19.49 5.197-37.36 14.29-52.95 51.65 63.67 129.3 105.3 216.4 109.8-1.624-7.797-2.599-15.92-2.599-24.04 0-57.83 46.78-104.9 104.9-104.9 30.21 0 57.5 12.67 76.67 33.14 23.72-4.548 46.46-13.32 66.6-25.34-7.798 24.37-24.37 44.83-46.13 57.83 21.12-2.273 41.58-8.122 60.43-16.24-14.29 20.79-32.16 39.31-52.63 54.25z"></path></svg>
-          </a>
+            <!--<a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>-->
+            <a class="social-icon" href="#!">
+              <svg class="svg-inline--fa fa-twitter" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M459.4 151.7c.325 4.548 .325 9.097 .325 13.65 0 138.7-105.6 298.6-298.6 298.6-59.45 0-114.7-17.22-161.1-47.11 8.447 .974 16.57 1.299 25.34 1.299 49.06 0 94.21-16.57 130.3-44.83-46.13-.975-84.79-31.19-98.11-72.77 6.498 .974 12.99 1.624 19.82 1.624 9.421 0 18.84-1.3 27.61-3.573-48.08-9.747-84.14-51.98-84.14-102.1v-1.299c13.97 7.797 30.21 12.67 47.43 13.32-28.26-18.84-46.78-51.01-46.78-87.39 0-19.49 5.197-37.36 14.29-52.95 51.65 63.67 129.3 105.3 216.4 109.8-1.624-7.797-2.599-15.92-2.599-24.04 0-57.83 46.78-104.9 104.9-104.9 30.21 0 57.5 12.67 76.67 33.14 23.72-4.548 46.46-13.32 66.6-25.34-7.798 24.37-24.37 44.83-46.13 57.83 21.12-2.273 41.58-8.122 60.43-16.24-14.29 20.79-32.16 39.31-52.63 54.25z"></path></svg>
+            </a>
 
 
-          <!--<a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>-->
-          <a class="social-icon" href="#!">
-            <svg class="svg-inline--fa fa-facebook-f" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M279.1 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.4 0 225.4 0c-73.22 0-121.1 44.38-121.1 124.7v70.62H22.89V288h81.39v224h100.2V288z"></path></svg>
-          </a>
-        </div>
-      </div>
-    </section>
-    <hr class="m-0" />
-    <!-- Experience-->
-    <section class="resume-section" id="experience">
-      <div class="resume-section-content">
-        <h2 class="mb-5">Experience</h2>
-        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="flex-grow-1">
-            <h3 class="mb-0">Senior Web Developer</h3>
-            <div class="subheading mb-3">Intelitec Solutions</div>
-            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+            <!--<a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>-->
+            <a class="social-icon" href="#!">
+              <svg class="svg-inline--fa fa-facebook-f" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M279.1 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.4 0 225.4 0c-73.22 0-121.1 44.38-121.1 124.7v70.62H22.89V288h81.39v224h100.2V288z"></path></svg>
+            </a>
           </div>
-          <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
         </div>
-        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="flex-grow-1">
-            <h3 class="mb-0">Web Developer</h3>
-            <div class="subheading mb-3">Intelitec Solutions</div>
-            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
           </div>
-          <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
-        </div>
-        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="flex-grow-1">
-            <h3 class="mb-0">Junior Web Designer</h3>
-            <div class="subheading mb-3">Shout! Media Productions</div>
-            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+      </section>
+      <hr class="m-0" />
+      <!-- Experience-->
+      <section class="resume-section" id="experience">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Experience</h2>
+          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Senior Web Developer</h3>
+              <div class="subheading mb-3">Intelitec Solutions</div>
+              <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
           </div>
-          <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
-        </div>
-        <div class="d-flex flex-column flex-md-row justify-content-between">
-          <div class="flex-grow-1">
-            <h3 class="mb-0">Web Design Intern</h3>
-            <div class="subheading mb-3">Shout! Media Productions</div>
-            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Web Developer</h3>
+              <div class="subheading mb-3">Intelitec Solutions</div>
+              <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
           </div>
-          <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
-        </div>
-      </div>
-    </section>
-    <hr class="m-0" />
-    <!-- Education-->
-    <section class="resume-section" id="education">
-      <div class="resume-section-content">
-        <h2 class="mb-5">Education</h2>
-        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="flex-grow-1">
-            <h3 class="mb-0">University of Colorado Boulder</h3>
-            <div class="subheading mb-3">Bachelor of Science</div>
-            <div>Computer Science - Web Development Track</div>
-            <p>GPA: 3.23</p>
+          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Junior Web Designer</h3>
+              <div class="subheading mb-3">Shout! Media Productions</div>
+              <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
           </div>
-          <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
-        </div>
-        <div class="d-flex flex-column flex-md-row justify-content-between">
-          <div class="flex-grow-1">
-            <h3 class="mb-0">James Buchanan High School</h3>
-            <div class="subheading mb-3">Technology Magnet Program</div>
-            <p>GPA: 3.56</p>
+          <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Web Design Intern</h3>
+              <div class="subheading mb-3">Shout! Media Productions</div>
+              <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
           </div>
-          <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
         </div>
-      </div>
-    </section>
-    <hr class="m-0" />
+      </section>
+      <hr class="m-0" />
+      <!-- Education-->
+      <section class="resume-section" id="education">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Education</h2>
+          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">University of Colorado Boulder</h3>
+              <div class="subheading mb-3">Bachelor of Science</div>
+              <div>Computer Science - Web Development Track</div>
+              <p>GPA: 3.23</p>
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
+          </div>
+          <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">James Buchanan High School</h3>
+              <div class="subheading mb-3">Technology Magnet Program</div>
+              <p>GPA: 3.56</p>
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
+          </div>
+        </div>
+      </section>
+      <hr class="m-0" />
 
-    <!-- Projects-->
-    <section class="resume-section" id="projects">
-      <div class="resume-section-content">
-        <h2 class="mb-5">Projects</h2>
-        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="flex-grow-1">
-            <!--<a class="nav-link text-dark" [routerLink]='["/authentication/register"]'>Register</a>-->
-            <h3><a class='mb-0' href='https://www.google.com' target="_blank">Green AI</a></h3>
-            <div class="subheading mb-3">ASP.NET CORE API</div>
-            <div>.NET 6</div>
-            <p>V 1.0</p>
+      <!-- Projects-->
+      <section class="resume-section" id="projects">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Projects</h2>
+          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+              <!--<a class="nav-link text-dark" [routerLink]='["/authentication/register"]'>Register</a>-->
+              <h3><a class='mb-0' href='https://www.google.com' target="_blank">Green AI</a></h3>
+              <div class="subheading mb-3">ASP.NET CORE API</div>
+              <div>.NET 6</div>
+              <p>V 1.0</p>
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary">June 2022 - July 2022</span></div>
           </div>
-          <div class="flex-shrink-0"><span class="text-primary">June 2022 - July 2022</span></div>
-        </div>
-        <div class="d-flex flex-column flex-md-row justify-content-between">
-          <div class="flex-grow-1">
-            <h3><a class='mb-0' href='https://discord.gg/d79UEnAg' target="_blank">Bot GPT-3</a></h3>
-            <div class="subheading mb-3">OPEN AI</div>
-            <p>V 1.0</p>
+          <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="flex-grow-1">
+              <h3><a class='mb-0' href='https://discord.gg/d79UEnAg' target="_blank">Bot GPT-3</a></h3>
+              <div class="subheading mb-3">OPEN AI</div>
+              <p>V 1.0</p>
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary">April 2021 - April 2021</span></div>
           </div>
-          <div class="flex-shrink-0"><span class="text-primary">April 2021 - April 2021</span></div>
         </div>
-      </div>
-    </section>
-    <hr class="m-0" />
+      </section>
+      <hr class="m-0" />
 
 
 
-    <!-- Skills-->
-    <section class="resume-section" id="skills">
-      <div class="resume-section-content">
-        <h2 class="mb-5">Skills</h2>
-        <div class="subheading mb-3">Programming Languages & Tools</div>
-        <ul class="list-inline dev-icons">
-          <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-          <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-          <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-          <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-          <li class="list-inline-item"><i class="fab fa-react"></i></li>
-          <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-          <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-          <li class="list-inline-item"><i class="fab fa-less"></i></li>
-          <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-          <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
-          <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
-          <li class="list-inline-item"><i class="fab fa-npm"></i></li>
-        </ul>
-        <div class="subheading mb-3">Workflow</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <span class="fa-li"><i class="fas fa-check"></i></span>
-            Mobile-First, Responsive Design
-          </li>
-          <li>
-            <span class="fa-li"><i class="fas fa-check"></i></span>
-            Cross Browser Testing & Debugging
-          </li>
-          <li>
-            <span class="fa-li"><i class="fas fa-check"></i></span>
-            Cross Functional Teams
-          </li>
-          <li>
-            <span class="fa-li"><i class="fas fa-check"></i></span>
-            Agile Development & Scrum
-          </li>
-        </ul>
-      </div>
-    </section>
-    <hr class="m-0" />
-    <!-- Interests-->
-    <section class="resume-section" id="interests">
-      <div class="resume-section-content">
-        <h2 class="mb-5">Interests</h2>
-        <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-        <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
-      </div>
-    </section>
-    <hr class="m-0" />
-    <!-- Awards-->
-    <section class="resume-section" id="awards">
-      <div class="resume-section-content">
-        <h2 class="mb-5">Awards & Certifications</h2>
-        <ul class="fa-ul mb-0">
-          <li>
-            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-            Google Analytics Certified Developer
-          </li>
-          <li>
-            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-            Mobile Web Specialist - Google Certification
-          </li>
-          <li>
-            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-            1
-            <sup>st</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2009
-          </li>
-          <li>
-            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-            1
-            <sup>st</sup>
-            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-          </li>
-          <li>
-            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-            2
-            <sup>nd</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-          </li>
-          <li>
-            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-            1
-            <sup>st</sup>
-            Place - James Buchanan High School - Hackathon 2006
-          </li>
-          <li>
-            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-            3
-            <sup>rd</sup>
-            Place - James Buchanan High School - Hackathon 2005
-          </li>
-        </ul>
-      </div>
-    </section>
-  </div>
-  <!-- Bootstrap core JS-->
-  <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>-->
-  <!-- Core theme JS-->
-  <!--<script src="js/scripts.js"></script>-->
+      <!-- Skills-->
+      <section class="resume-section" id="skills">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Skills</h2>
+          <div class="subheading mb-3">Programming Languages & Tools</div>
+          <ul class="list-inline dev-icons">
+            <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+            <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+            <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+            <li class="list-inline-item"><i class="fab fa-angular"></i></li>
+            <li class="list-inline-item"><i class="fab fa-react"></i></li>
+            <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+            <li class="list-inline-item"><i class="fab fa-sass"></i></li>
+            <li class="list-inline-item"><i class="fab fa-less"></i></li>
+            <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
+            <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
+            <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
+            <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+          </ul>
+          <div class="subheading mb-3">Workflow</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Mobile-First, Responsive Design
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Cross Browser Testing & Debugging
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Cross Functional Teams
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Agile Development & Scrum
+            </li>
+          </ul>
+        </div>
+      </section>
+      <hr class="m-0" />
+      <!-- Interests-->
+      <section class="resume-section" id="interests">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Interests</h2>
+          <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
+          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+        </div>
+      </section>
+      <hr class="m-0" />
+      <!-- Awards-->
+      <section class="resume-section" id="awards">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Awards & Certifications</h2>
+          <ul class="fa-ul mb-0">
+            <li>
+              <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+              Google Analytics Certified Developer
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+              Mobile Web Specialist - Google Certification
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+              1
+              <sup>st</sup>
+              Place - University of Colorado Boulder - Emerging Tech Competition 2009
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+              1
+              <sup>st</sup>
+              Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+              2
+              <sup>nd</sup>
+              Place - University of Colorado Boulder - Emerging Tech Competition 2008
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+              1
+              <sup>st</sup>
+              Place - James Buchanan High School - Hackathon 2006
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+              3
+              <sup>rd</sup>
+              Place - James Buchanan High School - Hackathon 2005
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  
+    <!-- Bootstrap core JS-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>-->
+    <!-- Core theme JS-->
+<!--    <script src="scripts.js"></script>-->
 </body>
 </html>
-<p>home works!</p>
+
