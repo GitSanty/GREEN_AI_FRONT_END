@@ -28,13 +28,32 @@
 
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+        <!--<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>-->
+        <li class="nav-item">
+          <a class=" nav-link js-scroll-trigger" [routerLink]='["/"]' fragment="about">About</a>
+        </li>
+          <!--<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>-->
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" [routerLink]='["/"]' fragment="experience">Experience</a>
+        </li>
+          <!--<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>-->
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" [routerLink]='["/"]' fragment="education">Education</a>
+        </li>
+          <!--<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>-->
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" [routerLink]='["/"]' fragment="projects">Projects</a>
+        </li>
+          <!--<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>-->
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" [routerLink]='["/"]' fragment="skills">Skills</a>
+        </li>
+          <!--<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>-->
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" [routerLink]='["/"]' fragment="interests">Interests</a>
+        </li>
+          <!--<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>-->
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" [routerLink]='["/"]' fragment="awards">awards</a></li>
       </ul>
     </div>
   </nav>
@@ -45,6 +64,7 @@
       <!-- About-->
       <section class="resume-section" id="about">
       <!--<section class="container-fluid w-75 flex-column m-auto resume-section" id="about">-->
+      <!--<section class="container-fluid w-75 flex-column resume-section" id="about">-->
         <div class="resume-section-content">
         <div >
           <h1 style="color: darkkhaki">
@@ -224,8 +244,10 @@
           <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div style="color: darkkhaki">
               <!--<a class="nav-link text-dark" [routerLink]='["/authentication/register"]'>Register</a>-->
-              <a class="nav-link text-danger" [routerLink]='["/project/project"]'>Green AI</a>
-              <!--<h3><a class='text-primary' href='https://www.google.com' target="_blank">Green AI</a></h3>-->
+              <a class="nav-link text-danger" [routerLink]='["/project/show-project"]'>Green AI</a>
+              
+               
+              <h3><a class='text-primary' href='/project/show-project' target="_blank">Green AI</a></h3>
               <div class="subheading mb-3">ASP.NET WEB CORE / ASP.NET CORE API</div>
               <p>.NET 6 </p>
               <p>Angular 13</p>
@@ -236,7 +258,7 @@
           </div>
           <div class="d-flex flex-column flex-md-row justify-content-between">
             <div class="flex-grow-1">
-              <h3><a class='mb-0' href='https://discord.gg/d79UEnAg' target="_blank">Bot GPT-3</a></h3>
+              <h3><a class='mb-0' href='https://discord.gg/EvphMDa6g6' target="_blank">Bot GPT-3</a></h3>
               <div class="subheading mb-3">OPEN AI</div>
               <p>V 1.0</p>
             </div>

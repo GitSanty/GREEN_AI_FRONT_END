@@ -9,7 +9,8 @@ import { ShowProjectComponent } from './project/show-project/show-project.compon
 import { AddEditProjectComponent } from './project/add-edit-project/add-edit-project.component';
 import { GreenAiApiService } from './green-ai-api.service';
 import { HomeComponent } from './home/home.component';
-import { AppRoutingModule } from './app-routing.module';
+//import { AppRoutingModule, routingComponents } from './app-routing.module';
+import { AppRoutingModule} from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { AppRoutingModule } from './app-routing.module';
     ShowProjectComponent,
     AddEditProjectComponent,
     HomeComponent
+    //routingComponents
   ],
   imports: [
     BrowserModule,
@@ -28,5 +30,6 @@ import { AppRoutingModule } from './app-routing.module';
   ],
   providers: [GreenAiApiService],
   bootstrap: [AppComponent]
+  //bootstrap: [HomeComponent]
 })
 export class AppModule { }

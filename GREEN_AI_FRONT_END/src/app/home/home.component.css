@@ -660,16 +660,16 @@ progress {
 .container-lg,
 .container-md,
 .container-sm {
-  width: 90%;
+  width: 100%;
   /*padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);*/
   /*padding-right: 15px;
   padding-left: 15px;
   margin-right: 0.75rem;*/
-  margin-left: 260px;
+  margin-left: 20px;
   /*background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url('https://tech.ebu.ch/files/live/sites/tech/files/shared/events/workshop_2022_AIDI_GreenAI/GreenAI-Microworkshop1-March2022.jpeg');background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url('https://tech.ebu.ch/files/live/sites/tech/files/shared/events/workshop_2022_AIDI_GreenAI/GreenAI-Microworkshop1-March2022.jpeg');background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url('https://tech.ebu.ch/files/live/sites/tech/files/shared/events/workshop_2022_AIDI_GreenAI/GreenAI-Microworkshop1-March2022.jpeg');*/
   /*background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73));*/
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
 }
 
 @media (min-width: 576px) {
@@ -4834,11 +4834,13 @@ textarea.form-control-lg {
   }
 
 .navbar-light .navbar-nav .nav-link {
+  /*color: rgba(0, 0, 0, 0.55);*/
   color: rgba(0, 0, 0, 0.55);
+  
 }
 
   .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(241, 196, 15, 0.7);
   }
 
   .navbar-light .navbar-nav .nav-link.disabled {
@@ -12080,11 +12082,11 @@ section.resume-section {
   padding-top: 5rem;
   margin-bottom: 5rem;
   /*max-width: 25rem;*/
-  max-width: 70rem;
+  /*max-width: 70rem;*/
 }
 
   section.resume-section .resume-section-content {
-    width: 100%;
+    width: 75%;
   }
 
 @media (min-width: 768px) {
@@ -12095,7 +12097,7 @@ section.resume-section {
 
 @media (min-width: 992px) {
   section.resume-section {
-    padding-left: 3rem;
+    padding-left: 21rem;
     padding-right: 3rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
