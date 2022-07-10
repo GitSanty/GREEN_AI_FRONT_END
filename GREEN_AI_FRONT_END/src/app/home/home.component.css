@@ -93,6 +93,18 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.texto {
+  /*background: -webkit-linear-gradient(#ffffff, #d7d2cc);*/
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-radial-gradient(to right, #414345, #232526);  /*Chrome 10-25, Safari 5.1-6*/
+  background: radial-gradient(to right, #414345, #232526);
+ 
+  text-align: center;
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: tomato;*/
+} 
+
 hr {
   margin: 1rem 0;
   color: inherit;

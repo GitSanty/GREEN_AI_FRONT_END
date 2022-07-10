@@ -7,6 +7,6 @@
     <JavaScriptTestFramework>Jasmine</JavaScriptTestFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="src\assets\img\" />
+    <Folder Include="src\assets\video\" />
   </ItemGroup>
 </Project>
