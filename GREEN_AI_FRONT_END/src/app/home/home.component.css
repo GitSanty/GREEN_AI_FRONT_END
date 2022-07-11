@@ -87,7 +87,7 @@ body {
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
-  text-align: var(--bs-body-text-align);
+  text-align: var(--bs-body-text-align);  
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -95,15 +95,26 @@ body {
 
 .texto {
   /*background: -webkit-linear-gradient(#ffffff, #d7d2cc);*/
-  background: #232526; /* fallback for old browsers */
-  background: -webkit-radial-gradient(to right, #414345, #232526);  /*Chrome 10-25, Safari 5.1-6*/
-  background: radial-gradient(to right, #414345, #232526);
- 
+  /*background: #232526; 
+  background: -webkit-radial-gradient(to right, #414345, #232526);  
+  background: radial-gradient(to right, #414345, #232526);*/
+  /*background: repeating-radial-gradient(#e66465, #9198e5 20%);*/
+  
+  /*background: repeating-radial-gradient(closest-side, black, orange, grey);*/
+  /*background: repeating-radial-gradient(grey, orange 25%);*/
   text-align: center;
-  /* -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: tomato;*/
-} 
+}
+
+.module {
+  text-align: center;
+  max-width: 365px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: white;
+  border-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient( to bottom, orange, rgba(0, 0, 0, 0) ) 1 100%;
+}
 
 hr {
   margin: 1rem 0;
