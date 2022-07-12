@@ -40,6 +40,7 @@ body {
   border-width: 3px;
   border-style: solid;
   border-image: linear-gradient( to bottom, orange, rgba(0, 0, 0, 0) ) 1 100%;
+ 
 }
 
 /*::-webkit-file-upload-button {
