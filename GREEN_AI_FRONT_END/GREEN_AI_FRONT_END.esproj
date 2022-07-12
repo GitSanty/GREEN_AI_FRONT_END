@@ -9,4 +9,9 @@
   <ItemGroup>
     <Folder Include="src\assets\video\" />
   </ItemGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties package_1json__JsonSchema="" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>
