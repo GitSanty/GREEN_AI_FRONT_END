@@ -581,6 +581,30 @@ progress {
   }
 }
 
+.display-7 {
+  font-size: calc(1.325rem + .9vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+@media (min-width: 1200px) {
+  .display-7 {
+    font-size: 2rem;
+  }
+}
+
+.display-8 {
+  font-size: calc(1.200rem + .1vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+@media (min-width: 1200px) {
+  .display-8 {
+    font-size: 1rem;
+  }
+}
+
 .list-unstyled {
   padding-left: 0;
   list-style: none;
@@ -12080,6 +12104,7 @@ section.resume-section {
 
   section.resume-section .resume-section-content {
     width: 100%;
+    text-align:justify; 
   }
 
 @media (min-width: 768px) {
