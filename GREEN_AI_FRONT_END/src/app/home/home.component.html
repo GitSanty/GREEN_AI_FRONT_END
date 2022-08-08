@@ -18,13 +18,15 @@
 </head>
 <body id="page-top">
   <!-- Navigation-->
+
   
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">    
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Santiago Astete</span>
       <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/santi.jpg" alt="..." /></span>
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>   
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav mr-auto">
@@ -43,507 +45,562 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" [routerLink]='["/"]' fragment="skills">Skills</a>
         </li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" [routerLink]='["/"]' fragment="awards">Languages</a></li>        
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" [routerLink]='["/"]' fragment="awards">Languages</a></li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" [routerLink]='["/"]' fragment="interests">Interests</a>
         </li>
-        
+
       </ul>
     </div>
   </nav>
-  
-    <!-- Page Content-->
-    <div class="container-fluid p-0">
 
-      <!-- About-->
-      <section class="resume-section" id="about">
-        <!--<section class="container-fluid w-75 flex-column m-auto resume-section" id="about">-->
-        <!--<section class="container-fluid w-75 flex-column resume-section" id="about">-->
-        <div class="resume-section-content">
-          <div>
-            <h1 class="display-4" style="color: darkkhaki" text-align:rigth>
-              Santiago
-              <span class="text-primary">Astete</span>
-            </h1>
-            <br />
-            <h1 class="display-5" style="color: darkkhaki">
-              IT Professional - .NET Developer
-            </h1>
-            <br />
-            <br />
-            <div style="color: darkkhaki">
-              <h5>
-                E-mail:
-                <a class="text-orange" href="mailto:sastetec@hotmail.com">sastetec@hotmail.com</a>
-              </h5>
-              <br />
-              <br />
-              <p style="color: darkkhaki">
-                Experienced developer, I am looking for an opportunity where I can show my analytical mind by providing a solution to any kind of issue whether front-end or back-end.
-              </p>
-            </div>
-              <br />
-              <br />
-              <div class="social-icons">
-                <!--<a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>-->
-                <a class="social-icon" href="#!">
-                  <svg class="svg-inline--fa fa-linkedin-in" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M100.3 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.6 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.3 61.9 111.3 142.3V448z"></path></svg>
-                </a>
-                <!--<a class="social-icon" href="#!"><i class="fab fa-github"></i></a>-->
-                <a class="social-icon" href="#!">
-                  <svg class="svg-inline--fa fa-github" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
-                </a>
+  <!-- Page Content-->
+  <div class="container-fluid p-0">
 
-
-                <!--<a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>-->
-                <a class="social-icon" href="#!">
-                  <svg class="svg-inline--fa fa-twitter" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M459.4 151.7c.325 4.548 .325 9.097 .325 13.65 0 138.7-105.6 298.6-298.6 298.6-59.45 0-114.7-17.22-161.1-47.11 8.447 .974 16.57 1.299 25.34 1.299 49.06 0 94.21-16.57 130.3-44.83-46.13-.975-84.79-31.19-98.11-72.77 6.498 .974 12.99 1.624 19.82 1.624 9.421 0 18.84-1.3 27.61-3.573-48.08-9.747-84.14-51.98-84.14-102.1v-1.299c13.97 7.797 30.21 12.67 47.43 13.32-28.26-18.84-46.78-51.01-46.78-87.39 0-19.49 5.197-37.36 14.29-52.95 51.65 63.67 129.3 105.3 216.4 109.8-1.624-7.797-2.599-15.92-2.599-24.04 0-57.83 46.78-104.9 104.9-104.9 30.21 0 57.5 12.67 76.67 33.14 23.72-4.548 46.46-13.32 66.6-25.34-7.798 24.37-24.37 44.83-46.13 57.83 21.12-2.273 41.58-8.122 60.43-16.24-14.29 20.79-32.16 39.31-52.63 54.25z"></path></svg>
-                </a>
-
-
-                <!--<a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>-->
-                <a class="social-icon" href="#!">
-                  <svg class="svg-inline--fa fa-facebook-f" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M279.1 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.4 0 225.4 0c-73.22 0-121.1 44.38-121.1 124.7v70.62H22.89V288h81.39v224h100.2V288z"></path></svg>
-                </a>
+    <!-- About-->
+    <section class="resume-section" id="about">
+      <!--<section class="container-fluid w-75 flex-column m-auto resume-section" id="about">-->
+      <!--<section class="container-fluid w-75 flex-column resume-section" id="about">-->
+      <div class="resume-section-content">
+        <div>
+          <div class="animcontainer">
+            <!--<img src="https://www.nconsulting.net/images/ncheader.jpg" style="width:100%;">-->
+            <div class="text-animation display-3"  style="color: darkkhaki">
+              <span style="left: 217.114px; top: -427.797px;"> </span>
+              <span style="left: 139.006px; top: 59.9028px;">	</span><span style="left: 1703.58px; top: -788.2px;"></span><span style="left: 1317.14px; top: -661.573px;"> </span>
+              <span style="left: 1184.16px; top: 164.258px;">S</span>
+              <span style="left: 1005.32px; top: -248.943px;">&nbsp;&nbsp;&nbsp;a</span>
+              <span style="left: 707.384px; top: -636.14px;">&nbsp;&nbsp;&nbsp;n</span>
+              <span style="left: -851.12px; top: -842.847px;">&nbsp;&nbsp;&nbsp;t</span>
+              <span style="left: 736.632px; top: -810.533px;">&nbsp;&nbsp;&nbsp;i</span>
+              <span style="left: 198.458px; top: 825.452px;">&nbsp;&nbsp;&nbsp;a</span>
+              <span style="left: -199.502px; top: 287.378px;">&nbsp;&nbsp;&nbsp;g</span>
+              <span style="left: 1593.04px; top: 543.223px;">&nbsp;&nbsp;&nbsp;o</span>
+              <span style="left: -1328.16px; top: 769.943px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+              <span style="left: 944.538px; top: -643.268px;">A</span>
+              <span style="left: -1210.25px; top: 637.59px;">&nbsp;&nbsp;&nbsp;s</span>
+              <span style="left: 694.37px; top: -783.938px;">&nbsp;&nbsp;&nbsp;t</span>
+              <span style="left: 353.974px; top: 278.25px;">&nbsp;&nbsp;&nbsp;e</span>
+              <span style="left: 42.6748px; top: 122.806px;">&nbsp;&nbsp;&nbsp;t</span>
+              <span style="left: 669.897px; top: -570.79px;">&nbsp;&nbsp;&nbsp;e</span>
+              <div>
+                <br />
+                <span style="left: -819.73px; top: -465.403px;">&nbsp;</span>
+                <span style="left: 458.424px; top: 808.544px;"></span>
+                <span style="left: 967.298px; top: 457.891px;"></span>
+                <span style="left: 1771.58px; top: -562.017px;">.</span>
+                <span style="left: 604.004px; top: 3.43657px;">N</span>
+                <span style="left: -1896.73px; top: 623.149px;">E</span>
+                <span style="left: 579.937px; top: 186.155px;">T</span>
+                <span style="left: 835.446px; top: -66.7779px;">&nbsp;</span>
+                <span style="left: -1102.03px; top: 166.01px;">D</span>
+                <span style="left: -1862.81px; top: -805.283px;">e</span>
+                <span style="left: -590.875px; top: -802.83px;">v</span>
+                <span style="left: -590.875px; top: -802.83px;">e</span>
+                <span style="left: -974.024px; top: 76.6053px;">l</span>
+                <span style="left: -1501.19px; top: -313.547px;">o</span>
+                <span style="left: 334.276px; top: -268.655px;">p</span>
+                <span style="left: 398.926px; top: -13.7924px;">e</span>
+                <span style="left: 605.44px; top: -719.305px;">r</span>
+                <span style="left: 407.274px; top: -606.73px;"></span>
+                <span style="left: 916.098px; top: 811.764px;"></span>
+                <span style="left: -519.96px; top: -200.492px;"></span>
               </div>
+
             </div>
           </div>
-      </section>
-      <hr class="m-0" />
-      <!-- Experience-->
-      <section class="resume-section" id="experience">
-        <div class="resume-section-content" border-radius:20px>
-          <div class="module"><h2 class="display-4" style="color:white">Experience </h2></div><br /><br />
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="flex-grow-1">
-              <div style="color: darkkhaki" class="subheading mb-3">
-                <p style="display:flex; flex-flow:row nowrap">
+
+
+
+          <!--<h1 class="display-4" style="color: darkkhaki" text-align:rigth>
+    Santiago
+    <span class="text-primary">Astete</span>
+  </h1>
+  <br />
+  <h1 class="display-5" style="color: darkkhaki">
+    IT Professional - .NET Developer
+  </h1>-->
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <div style="color: darkkhaki">
+            <h5>
+              E-mail:
+              <a class="text-orange" href="mailto:sastetec@hotmail.com">sastetec@hotmail.com</a>
+            </h5>
+            <br />
+            <br />
+            <p style="color: darkkhaki">
+              Experienced developer, I am looking for an opportunity where I can show my analytical mind by providing a solution to any kind of issue whether front-end or back-end.
+            </p>
+          </div>
+          <br />
+          <br />
+          <div class="social-icons">
+            <!--<a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>-->
+            <a class="social-icon" href="#!">
+              <svg class="svg-inline--fa fa-linkedin-in" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M100.3 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.6 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.3 61.9 111.3 142.3V448z"></path></svg>
+            </a>
+            <!--<a class="social-icon" href="#!"><i class="fab fa-github"></i></a>-->
+            <a class="social-icon" href="#!">
+              <svg class="svg-inline--fa fa-github" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+            </a>
+
+
+            <!--<a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>-->
+            <a class="social-icon" href="#!">
+              <svg class="svg-inline--fa fa-twitter" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M459.4 151.7c.325 4.548 .325 9.097 .325 13.65 0 138.7-105.6 298.6-298.6 298.6-59.45 0-114.7-17.22-161.1-47.11 8.447 .974 16.57 1.299 25.34 1.299 49.06 0 94.21-16.57 130.3-44.83-46.13-.975-84.79-31.19-98.11-72.77 6.498 .974 12.99 1.624 19.82 1.624 9.421 0 18.84-1.3 27.61-3.573-48.08-9.747-84.14-51.98-84.14-102.1v-1.299c13.97 7.797 30.21 12.67 47.43 13.32-28.26-18.84-46.78-51.01-46.78-87.39 0-19.49 5.197-37.36 14.29-52.95 51.65 63.67 129.3 105.3 216.4 109.8-1.624-7.797-2.599-15.92-2.599-24.04 0-57.83 46.78-104.9 104.9-104.9 30.21 0 57.5 12.67 76.67 33.14 23.72-4.548 46.46-13.32 66.6-25.34-7.798 24.37-24.37 44.83-46.13 57.83 21.12-2.273 41.58-8.122 60.43-16.24-14.29 20.79-32.16 39.31-52.63 54.25z"></path></svg>
+            </a>
+
+
+            <!--<a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>-->
+            <a class="social-icon" href="#!">
+              <svg class="svg-inline--fa fa-facebook-f" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M279.1 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.4 0 225.4 0c-73.22 0-121.1 44.38-121.1 124.7v70.62H22.89V288h81.39v224h100.2V288z"></path></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Experience-->
+    <section class="resume-section" id="experience">
+      <div class="resume-section-content" border-radius:20px>
+        <div class="module"><h2 class="display-4" style="color:white">Experience </h2></div><br /><br />
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+            <div style="color: darkkhaki" class="subheading mb-3">
+              <p style="display:flex; flex-flow:row nowrap">
                 <span style="flex:1">Developer: Logic IMMO (Brussels)</span>
                 <span style="flex:1; text-align:end">November 2017 - November 2018</span>
-                </p>
-              </div>
-              <p style="color: darkkhaki">
-                <b>Job description:</b> Application Development and Maintenance, executing test scenarios. <br />
-                <b>Key skills:</b> PHP, MVC , Backbone, JavaScript, CSS3, JQUERY, MYSQL, Maria DB, Mongo,
-                Agile
               </p>
             </div>
-            <!--<div style="color: darkkhaki" class="subheading mb-3 "><span style="color: darkkhaki">November 2017 - November 2018</span></div>-->
+            <p style="color: darkkhaki">
+              <b>Job description:</b> Application Development and Maintenance, executing test scenarios. <br />
+              <b>Key skills:</b> PHP, MVC , Backbone, JavaScript, CSS3, JQUERY, MYSQL, Maria DB, Mongo,
+              Agile
+            </p>
           </div>
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="flex-grow-1">
-              <div style="color: darkkhaki" class="subheading mb-3">                 
-                <p style="display:flex; flex-flow:row nowrap">
-                  <span style="flex:1">Co-founder: UWH SCHOOL (Brussels)</span>
-                  <span style="flex:1; text-align:end">october 2011 - November 2016</span>
-                </p>
-              </div>
-
-              <p style="color: darkkhaki">
-                <b>Web site:</b>
-                <a target="_blank" href="https://www.facebook.com/uwh.school">https://www.facebook.com/uwh.school</a><br />
-                <b>Job description:</b> Creation of my own UWH school. Coordination and guide of initiation in
-                UWH courses. Preparation of fun exercises. Contacts with various swimming pools in
-                Brussels.
-
+          <!--<div style="color: darkkhaki" class="subheading mb-3 "><span style="color: darkkhaki">November 2017 - November 2018</span></div>-->
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+            <div style="color: darkkhaki" class="subheading mb-3">
+              <p style="display:flex; flex-flow:row nowrap">
+                <span style="flex:1">Co-founder: UWH SCHOOL (Brussels)</span>
+                <span style="flex:1; text-align:end">october 2011 - November 2016</span>
               </p>
             </div>
-            <!--<div style="color: darkkhaki" class="subheading mb-3 "><span style="color: darkkhaki">october 2011 - November 2016</span></div>-->
+
+            <p style="color: darkkhaki">
+              <b>Web site:</b>
+              <a target="_blank" href="https://www.facebook.com/uwh.school">https://www.facebook.com/uwh.school</a><br />
+              <b>Job description:</b> Creation of my own UWH school. Coordination and guide of initiation in
+              UWH courses. Preparation of fun exercises. Contacts with various swimming pools in
+              Brussels.
+
+            </p>
           </div>
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="flex-grow-1">
+          <!--<div style="color: darkkhaki" class="subheading mb-3 "><span style="color: darkkhaki">october 2011 - November 2016</span></div>-->
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
 
-              <div style="color: darkkhaki; text-align:left" class="subheading mb-3">
-                <p style="display:flex; flex-flow:row nowrap"><span style="flex:1">Developer: Near Technologies (Barcelona)</span>
-                <span style="flex:1; text-align:end">January 2007 - October 2010</span></p>
-               </div>
-              
-
-              <p style="color: darkkhaki">
-                <b>Job description:</b> Identify problems, write detailed descriptions of user needs, program functions and prepare  design documents ensuring proper IT standards are followed. Assisting in building the test cases.
-                <br /> <b>Key skills:</b> Visual Studio .Net,ASP.NET,ADO.NET,VB.NET, C#, Ajaxtoolkit, JS , Silverlight, Sql Server 2005, Oracle Pl/Sql y Apex- Express.
-                <br /><br /><b style="color:white">Consultant in the following companies: (Customers of Near Technologies Company)</b><br />
+            <div style="color: darkkhaki; text-align:left" class="subheading mb-3">
+              <p style="display:flex; flex-flow:row nowrap">
+                <span style="flex:1">Developer: Near Technologies (Barcelona)</span>
+                <span style="flex:1; text-align:end">January 2007 - October 2010</span>
               </p>
-              <ul style="color: darkkhaki">
+            </div>
+
+
+            <p style="color: darkkhaki">
+              <b>Job description:</b> Identify problems, write detailed descriptions of user needs, program functions and prepare  design documents ensuring proper IT standards are followed. Assisting in building the test cases.
+              <br /> <b>Key skills:</b> Visual Studio .Net,ASP.NET,ADO.NET,VB.NET, C#, Ajaxtoolkit, JS , Silverlight, Sql Server 2005, Oracle Pl/Sql y Apex- Express.
+              <br /><br /><b style="color:white">Consultant in the following companies: (Customers of Near Technologies Company)</b><br />
+            </p>
+            <ul style="color: darkkhaki">
+              <li>
+                <b>Company:</b> Caixa Sabadell (Spanish Bank)
+                <br /><b>Job description:</b> Application Development and Maintenance, Developing web services.<br />
+              </li>
+              <br />
+              <li>
+                <b>Company:</b> Bayer Business Services:
+                <br /><b>Job description:</b> Desktop applications, development and maintenance,
+                executing test scenarios to news applications. Applications of security and validate domain credentials with Active Directory.<br />
+              </li>
+              <br />
+              <li>
+                <b> Company:</b> Departament de Educació (Education Department)
+                <br /><b>Job description: Application for management in innovation projects.</b>
+              </li>
+              <br />
+              <li>
+                <b> Company:</b> Byrom
+                <br /><b>Job description:</b> Back Office application, Analysis and developing applications R+D.
+              </li>
+            </ul>
+
+          </div>
+          <!-- <div style="color: darkkhaki; text-align:end" class="subheading mb-3"><span style="color: darkkhaki">January 2007 - October 2010</span></div>-->
+
+        </div>
+
+
+
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+            <div style="color: darkkhaki" class="subheading mb-3">
+              <p style="display:flex; flex-flow:row nowrap">
+                <span style="flex:1">Developer: Untyer Lim (Barcelona)</span>
+                <span style="flex:1; text-align:end">January 2004 - November 2006</span>
+              </p>
+            </div>
+            <p style="color: darkkhaki">
+              <b>Job description:</b> Customer support, and development applications, reporting and data
+              management software. Writing unit tests, Analysis and developing aplications R+D.
+              Development of customized tools in the field of import/export marine products.
+              <br /><b>Key skills:</b> Visual .NET VB.NET and C#, Crystal Report, Asp.NET y SQL Server
+              2000,Windows 2000 server , Windows 2003 server TCP/IP.
+            </p>
+          </div>
+          <!--<div style="color: darkkhaki" class="subheading mb-3"><span style="color: darkkhaki">January 2004 - November 2006</span></div>-->
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+            <div style="color: darkkhaki" class="subheading mb-3">
+              <p style="display:flex; flex-flow:row nowrap">
+                <span style="flex:1">Developer: Hardan Allware S.L. (Barcelona)</span>
+                <span style="flex:1; text-align:end">January 2003 - November 2003</span>
+              </p>
+            </div>
+            <p style="color: darkkhaki">
+              <b>Job description:</b> Development of customized tools. Support developers of clients of the
+              company.
+              <br /><b>Key skills:</b> Visual Basic .NET, Crystal Report , Visual Basic,Access. SQL server 2000.
+            </p>
+          </div>
+          <!--<div style="color: darkkhaki" class="subheading mb-3"><span style="color: darkkhaki">January 2003 - November 2003</span></div>-->
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+            <div style="color: darkkhaki" class="subheading mb-3">
+              <p style="display:flex; flex-flow:row nowrap">
+                <span style="flex:1">Developer: Biometrica Medical S.L. (Barcelona)</span>
+                <span style="flex:1; text-align:end">November 2001 - December 2002</span>
+              </p>
+            </div>
+            <p style="color: darkkhaki">
+              <b>Job description:</b> Development of research applications in the health sector.
+              <br /><b>Key skills:</b> Using Visual Basic, Access, C++, SQL server 2000.
+            </p>
+          </div>
+          <!--<div style="color: darkkhaki" class="subheading mb-3"><span style="color: darkkhaki">November 2001 - December 2002</span></div>-->
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+            <div style="color: darkkhaki" class="subheading mb-3">
+              <p style="display:flex; flex-flow:row nowrap">
+                <span style="flex:1">Developer: Transiciel S.A. (Barcelona)</span>
+                <span style="flex:1; text-align:end">February 1999 - November 2001</span>
+              </p>
+            </div>
+            <p style="color: darkkhaki">
+              <b>Job description:</b> Customer support, and development applications, reporting and data
+              management software. for new and existing systems of Caixa de Pensiones de Barcelona
+              (Spaniard Bank).
+              <br /><b>Key skills:</b> Environment host using PL/1, DB2, (IMS) Information Management System
+            </p>
+          </div>
+          <!--<div style="color: darkkhaki" class="subheading mb-3"><span style="color: darkkhaki">February 1999 - November 2001</span></div>-->
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+            <div style="color: darkkhaki" class="subheading mb-3">
+              <p style="display:flex; flex-flow:row nowrap">
+                <span style="flex:1">Developer: Aldevi S.L. (Barcelona)</span>
+                <span style="flex:1; text-align:end">December 1997 - January 1999</span>
+              </p>
+            </div>
+            <p style="color: darkkhaki">
+              <b>Job description:</b> Development applications, reporting and data management
+              <br /><b>Key skills:</b> Clipper.
+            </p>
+          </div>
+          <!--<div style="color: darkkhaki" class="subheading mb-3"><span style="color: darkkhaki">December 1997 - January 1999</span></div>-->
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+            <div style="color: darkkhaki" class="subheading mb-3">
+              <p style="display:flex; flex-flow:row nowrap">
+                <span style="flex:1">Developer: Coca-Cola (Peru)</span>
+                <span style="flex:1; text-align:end">July 1990 - March 1995</span>
+              </p>
+            </div>
+            <p style="color: darkkhaki">
+              <b>Job description:</b> Development applications, reporting and data management, for new and
+              existing applications.
+              <br /><b>Key skills:</b> Clipper., Novell NETWARE
+            </p>
+          </div>
+          <!--<div style="color: darkkhaki" class="subheading mb-3"><span style="color: darkkhaki">July 1990 - March 1995</span></div>-->
+        </div>
+
+      </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Education-->
+    <section class="resume-section" id="education">
+      <div class="resume-section-content">
+        <!--<h2 style="color:white" class="mb-5">Education</h2>-->
+        <div class="module"><h2 class="display-4" style="color:white">Education</h2></div><br /><br />
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div style="color: darkkhaki">
+            <div class="subheading mb-3">
+              <ul>
                 <li>
-                  <b>Company:</b> Caixa Sabadell (Spanish Bank)
-                  <br /><b>Job description:</b> Application Development and Maintenance, Developing web services.<br />
+                  Certified .Net Developer
+                  <p> Microsoft Azure Fundamentals Certification (AZ-900), </p>
+                  <p> Brussels - Belgium</p>
                 </li>
-                <br />
-                <li>
-                  <b>Company:</b> Bayer Business Services:
-                  <br /><b>Job description:</b> Desktop applications, development and maintenance,
-                  executing test scenarios to news applications. Applications of security and validate domain credentials with Active Directory.<br />
-                </li>
-                <br />
-                <li>
-                  <b> Company:</b> Departament de Educació (Education Department)
-                  <br /><b>Job description: Application for management in innovation projects.</b>
-                </li>
-                <br />
-                <li>
-                  <b> Company:</b> Byrom
-                  <br /><b>Job description:</b> Back Office application, Analysis and developing applications R+D.
-                </li>
+
+              </ul>
+            </div>
+          </div>
+          <div style="color: darkkhaki" class="subheading mb-3"><span style="color: darkkhaki">March 2022 - July 2022</span></div>
+        </div>
+
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div style="color: darkkhaki">
+            <div class="subheading mb-3">
+              <ul>
+                <li>Data Scientist - Python, Ghent - Belgium</li>
               </ul>
 
             </div>
-           <!-- <div style="color: darkkhaki; text-align:end" class="subheading mb-3"><span style="color: darkkhaki">January 2007 - October 2010</span></div>-->
-
           </div>
-        
-
-
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="flex-grow-1">
-              <div style="color: darkkhaki" class="subheading mb-3">                
-                <p style="display:flex; flex-flow:row nowrap">
-                  <span style="flex:1">Developer: Untyer Lim (Barcelona)</span>
-                  <span style="flex:1; text-align:end">January 2004 - November 2006</span>
-                </p>
-              </div>
-              <p style="color: darkkhaki">
-                <b>Job description:</b> Customer support, and development applications, reporting and data
-                management software. Writing unit tests, Analysis and developing aplications R+D.
-                Development of customized tools in the field of import/export marine products.
-                <br /><b>Key skills:</b> Visual .NET VB.NET and C#, Crystal Report, Asp.NET y SQL Server
-                2000,Windows 2000 server , Windows 2003 server TCP/IP.
-              </p>
-            </div>
-            <!--<div style="color: darkkhaki" class="subheading mb-3"><span style="color: darkkhaki">January 2004 - November 2006</span></div>-->
-          </div>
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="flex-grow-1">
-              <div style="color: darkkhaki" class="subheading mb-3">                 
-                <p style="display:flex; flex-flow:row nowrap">
-                  <span style="flex:1">Developer: Hardan Allware S.L. (Barcelona)</span>
-                  <span style="flex:1; text-align:end">January 2003 - November 2003</span>
-                </p> 
-              </div>
-              <p style="color: darkkhaki">
-                <b>Job description:</b> Development of customized tools. Support developers of clients of the
-                company.
-                <br /><b>Key skills:</b> Visual Basic .NET, Crystal Report , Visual Basic,Access. SQL server 2000.
-              </p>
-            </div>
-            <!--<div style="color: darkkhaki" class="subheading mb-3"><span style="color: darkkhaki">January 2003 - November 2003</span></div>-->
-          </div>
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="flex-grow-1">
-              <div style="color: darkkhaki" class="subheading mb-3">                
-                <p style="display:flex; flex-flow:row nowrap">
-                  <span style="flex:1">Developer: Biometrica Medical S.L. (Barcelona)</span>
-                  <span style="flex:1; text-align:end">November 2001 - December 2002</span>
-                </p>
-              </div>
-              <p style="color: darkkhaki">
-                <b>Job description:</b> Development of research applications in the health sector.
-                <br /><b>Key skills:</b> Using Visual Basic, Access, C++, SQL server 2000.
-              </p>
-            </div>
-            <!--<div style="color: darkkhaki" class="subheading mb-3"><span style="color: darkkhaki">November 2001 - December 2002</span></div>-->
-          </div>
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="flex-grow-1">
-              <div style="color: darkkhaki" class="subheading mb-3">                 
-                <p style="display:flex; flex-flow:row nowrap">
-                  <span style="flex:1">Developer: Transiciel S.A. (Barcelona)</span>
-                  <span style="flex:1; text-align:end">February 1999 - November 2001</span>
-                </p>
-              </div>
-              <p style="color: darkkhaki">
-                <b>Job description:</b> Customer support, and development applications, reporting and data
-                management software. for new and existing systems of Caixa de Pensiones de Barcelona
-                (Spaniard Bank).
-                <br /><b>Key skills:</b> Environment host using PL/1, DB2, (IMS) Information Management System
-              </p>
-            </div>
-            <!--<div style="color: darkkhaki" class="subheading mb-3"><span style="color: darkkhaki">February 1999 - November 2001</span></div>-->
-          </div>
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="flex-grow-1">
-              <div style="color: darkkhaki" class="subheading mb-3">                
-                <p style="display:flex; flex-flow:row nowrap">
-                  <span style="flex:1">Developer: Aldevi S.L. (Barcelona)</span>
-                  <span style="flex:1; text-align:end">December 1997 - January 1999</span>
-                </p>
-              </div>
-              <p style="color: darkkhaki">
-                <b>Job description:</b> Development applications, reporting and data management
-                <br /><b>Key skills:</b> Clipper.
-              </p>
-            </div>
-            <!--<div style="color: darkkhaki" class="subheading mb-3"><span style="color: darkkhaki">December 1997 - January 1999</span></div>-->
-          </div>
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="flex-grow-1">
-              <div style="color: darkkhaki" class="subheading mb-3">                 
-                <p style="display:flex; flex-flow:row nowrap">
-                  <span style="flex:1">Developer: Coca-Cola (Peru)</span>
-                  <span style="flex:1; text-align:end">July 1990 - March 1995</span>
-                </p>
-              </div>
-              <p style="color: darkkhaki">
-                <b>Job description:</b> Development applications, reporting and data management, for new and
-                existing applications.
-                <br /><b>Key skills:</b> Clipper., Novell NETWARE
-              </p>
-            </div>
-            <!--<div style="color: darkkhaki" class="subheading mb-3"><span style="color: darkkhaki">July 1990 - March 1995</span></div>-->
-          </div>
-
+          <div style="color: darkkhaki" class="subheading mb-3"><span style="color: darkkhaki">October 2020 - April 2021</span></div>
         </div>
-      </section>
-      <hr class="m-0" />
-      <!-- Education-->
-      <section class="resume-section" id="education">
-        <div class="resume-section-content">
-          <!--<h2 style="color:white" class="mb-5">Education</h2>-->
-          <div class="module"><h2 class="display-4" style="color:white">Education</h2></div><br /><br />
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div style="color: darkkhaki">
-              <div class="subheading mb-3">
-                <ul>
-                  <li>
-                    Certified .Net Developer
-                    <p> Microsoft Azure Fundamentals Certification (AZ-900), </p>
-                    <p> Brussels - Belgium</p>
-                  </li>
 
-                </ul>
-              </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div style="color: darkkhaki">
+            <div class="subheading mb-3">
+              <ul>
+                <li>Training DVPT004 - C #, Brussels - Belgium</li>
+              </ul>
             </div>
-            <div style="color: darkkhaki" class="subheading mb-3"><span style="color: darkkhaki">March 2022 - July 2022</span></div>
           </div>
-
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div style="color: darkkhaki">
-              <div class="subheading mb-3">
-                <ul>
-                  <li>Data Scientist - Python, Ghent - Belgium</li>
-                </ul>
-
-              </div>
-            </div>
-            <div style="color: darkkhaki" class="subheading mb-3"><span style="color: darkkhaki">October 2020 - April 2021</span></div>
-          </div>
-
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div style="color: darkkhaki">
-              <div class="subheading mb-3">
-                <ul>
-                  <li>Training DVPT004 - C #, Brussels - Belgium</li>
-                </ul>
-              </div>
-            </div>
-            <div style="color: darkkhaki" class="subheading mb-3"><span style="color: darkkhaki">February 2019</span></div>
-          </div>
-
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div style="color: darkkhaki">
-              <div class="subheading mb-3">
-                <ul>
-                  <li>Course of French, Brussels - Belgium</li>
-                </ul>
-
-              </div>
-            </div>
-            <div style="color: darkkhaki" class="subheading mb-3"><span style="color: darkkhaki">2011 - 6 months</span></div>
-          </div>
-
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div style="color: darkkhaki">
-              <div class="subheading mb-3">
-                <ul>
-                  <li>Technical Computer Engineering, Peru</li>
-                </ul>
-              </div>
-            </div>
-            <div style="color: darkkhaki" class="subheading mb-3"><span style="color: darkkhaki">April 1987 – January 1990</span></div>
-          </div>
-
-
-
+          <div style="color: darkkhaki" class="subheading mb-3"><span style="color: darkkhaki">February 2019</span></div>
         </div>
-      </section>
-      <hr class="m-0" />
 
-      <!-- Projects-->
-      <section class="resume-section" id="projects">
-        <div class="resume-section-content">
-          <!--<h2 style="color:white" class="mb-5">Projects</h2>-->
-          <div class="module"><h2 class="display-4" style="color:white">Projects</h2></div><br /><br />
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div style="color: darkkhaki">
-              <div class="subheading mb-3">
-                GREEN ENERGY AI
-                <a class="nav-link text-danger" [routerLink]='["/project/show-project"]'>
-                  <!--<img class="rounded-circle" height="150" width="150" src="https://essentialenergyeveryday.com/wp-content/uploads/2020/10/70-percent-renewable-energy-storage.gif" />-->
-                  <img class="rounded-circle" height="150" width="150" src="https://i.pinimg.com/originals/b9/65/94/b96594848721f785a06413e6adcbba79.gif" />
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div style="color: darkkhaki">
+            <div class="subheading mb-3">
+              <ul>
+                <li>Course of French, Brussels - Belgium</li>
+              </ul>
+
+            </div>
+          </div>
+          <div style="color: darkkhaki" class="subheading mb-3"><span style="color: darkkhaki">2011 - 6 months</span></div>
+        </div>
+
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div style="color: darkkhaki">
+            <div class="subheading mb-3">
+              <ul>
+                <li>Technical Computer Engineering, Peru</li>
+              </ul>
+            </div>
+          </div>
+          <div style="color: darkkhaki" class="subheading mb-3"><span style="color: darkkhaki">April 1987 – January 1990</span></div>
+        </div>
+
+
+
+      </div>
+    </section>
+    <hr class="m-0" />
+
+    <!-- Projects-->
+    <section class="resume-section" id="projects">
+      <div class="resume-section-content">
+        <!--<h2 style="color:white" class="mb-5">Projects</h2>-->
+        <div class="module"><h2 class="display-4" style="color:white">Projects</h2></div><br /><br />
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div style="color: darkkhaki">
+            <div class="subheading mb-3">
+              GREEN ENERGY AI
+              <a class="nav-link text-danger" [routerLink]='["/project/show-project"]'>
+                <!--<img class="rounded-circle" height="150" width="150" src="https://essentialenergyeveryday.com/wp-content/uploads/2020/10/70-percent-renewable-energy-storage.gif" />-->
+                <img class="rounded-circle" height="150" width="150" src="https://i.pinimg.com/originals/b9/65/94/b96594848721f785a06413e6adcbba79.gif" />
+              </a>
+            </div>
+            <p>The Green Energy project exchange (Solar, Alternative energy, Solidarity and Investiments).</p>
+            <p>.NET 6 </p>
+            <p>Angular 13</p>
+            <p>Blazor</p>
+            <p>Azure</p>
+          </div>
+          <div style="color: darkkhaki" class="subheading mb-3"><span style="color: darkkhaki">July 2022</span></div>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between">
+          <div style="color: darkkhaki">
+
+            <div class="subheading mb-3">
+              GPT-3 - OPENAI
+              <h3>
+                <a class='mb-0' href='https://discord.gg/EvphMDa6g6' target="_blank">
+                  <img class="rounded-circle" height="150" width="150" src="https://bonzonate.co.za/images/2021/02/14/faceman.gif" />
                 </a>
-              </div>
-              <p>The Green Energy project exchange (Solar, Alternative energy, Solidarity and Investiments).</p>
-              <p>.NET 6 </p>
-              <p>Angular 13</p>
-              <p>Blazor</p>
-              <p>Azure</p>
+              </h3>
             </div>
-            <div style="color: darkkhaki" class="subheading mb-3"><span style="color: darkkhaki">July 2022</span></div>
+            <p>GPT-3 - OPENAI, or the third generation Generative Pre-trained Transformer,</p>
+            <p>is a neural network machine learning model trained using internet data to generate any type of text</p>
+            <p>Python</p>
+            <p>Api Discord</p>
+            <p>GTP-3 OpenAi Model</p>
           </div>
-          <div class="d-flex flex-column flex-md-row justify-content-between">
-            <div style="color: darkkhaki">
-
-              <div class="subheading mb-3">
-                GPT-3 - OPENAI
-                <h3>
-                  <a class='mb-0' href='https://discord.gg/EvphMDa6g6' target="_blank">
-                    <img class="rounded-circle" height="150" width="150" src="https://bonzonate.co.za/images/2021/02/14/faceman.gif" />
-                  </a>
-                </h3>
-              </div>
-              <p>GPT-3 - OPENAI, or the third generation Generative Pre-trained Transformer,</p>
-              <p>is a neural network machine learning model trained using internet data to generate any type of text</p>
-              <p>Python</p>
-              <p>Api Discord</p>
-              <p>GTP-3 OpenAi Model</p>
-            </div>
-            <div style="color: darkkhaki" class="subheading mb-3"><span style="color: darkkhaki">April 2021</span></div>
-          </div>
+          <div style="color: darkkhaki" class="subheading mb-3"><span style="color: darkkhaki">April 2021</span></div>
         </div>
-      </section>
-      <hr class="m-0" />
+      </div>
+    </section>
+    <hr class="m-0" />
 
 
 
-      <!-- Skills-->
-      <section class="resume-section" id="skills">
-        <div class="resume-section-content">
-          <!--<h2 style="color:white" class="mb-5">Skills</h2>-->
-          <div class="module"><h2 class="display-4" style="color:white">Skills</h2></div><br /><br />
-          <div style="color: gray" class="subheading mb-3">Programming Languages & Tools</div>
-          <ul class="list-inline  ">
-            <ul class="fa-ul mb-0">
+    <!-- Skills-->
+    <section class="resume-section" id="skills">
+      <div class="resume-section-content">
+        <!--<h2 style="color:white" class="mb-5">Skills</h2>-->
+        <div class="module"><h2 class="display-4" style="color:white">Skills</h2></div><br /><br />
+        <div style="color: gray" class="subheading mb-3">Programming Languages & Tools</div>
+        <ul class="list-inline  ">
+          <ul class="fa-ul mb-0">
 
-              <li>
-                <span style="color: darkkhaki"><i></i>.NET 6&#x2714;</span>
-                <span style="color: darkkhaki ">&#160;&#160;&#160;&#160;ASP.NET 6&#x2714;</span>
-                <span style="color: darkkhaki ">&#160;&#160;&#160;&#160;C# 10&#x2714;</span>
-                <span style="color: darkkhaki ">&#160;&#160;&#160;&#160;VB .NET&#x2714;</span>
-                <span style="color: darkkhaki ">&#160;&#160;&#160;&#160;ENTITY FRAMEWORK 6&#x2714;</span>
-                <span style="color: darkkhaki ">&#160;&#160;&#160;&#160;PYTHON&#x2714;</span>
-                <span style="color: darkkhaki ">&#160;&#160;&#160;&#160;AI MACHINE LEARNING&#x2714;</span>
-              </li>
-              <br />
+            <li>
+              <span style="color: darkkhaki"><i></i>.NET 6&#x2714;</span>
+              <span style="color: darkkhaki ">&#160;&#160;&#160;&#160;ASP.NET 6&#x2714;</span>
+              <span style="color: darkkhaki ">&#160;&#160;&#160;&#160;C# 10&#x2714;</span>
+              <span style="color: darkkhaki ">&#160;&#160;&#160;&#160;VB .NET&#x2714;</span>
+              <span style="color: darkkhaki ">&#160;&#160;&#160;&#160;ENTITY FRAMEWORK 6&#x2714;</span>
+              <span style="color: darkkhaki ">&#160;&#160;&#160;&#160;PYTHON&#x2714;</span>
+              <span style="color: darkkhaki ">&#160;&#160;&#160;&#160;AI MACHINE LEARNING&#x2714;</span>
+            </li>
+            <br />
 
-              <li>
-                <span style="color: darkkhaki"><i></i>BLAZOR&#x2714;</span>
-                <span style="color: darkkhaki">&#160;&#160;&#160;&#160;ANGULAR 13&#x2714;</span>
-                <span style="color: darkkhaki">&#160;&#160;&#160;&#160;JS&#x2714;</span>
-                <span style="color: darkkhaki">&#160;&#160;&#160;&#160;HTML&#x2714;</span>
-                <span style="color: darkkhaki">&#160;&#160;&#160;&#160;BOOTSTRAP&#x2714;</span>
-              </li>
-              <br />
+            <li>
+              <span style="color: darkkhaki"><i></i>BLAZOR&#x2714;</span>
+              <span style="color: darkkhaki">&#160;&#160;&#160;&#160;ANGULAR 13&#x2714;</span>
+              <span style="color: darkkhaki">&#160;&#160;&#160;&#160;JS&#x2714;</span>
+              <span style="color: darkkhaki">&#160;&#160;&#160;&#160;HTML&#x2714;</span>
+              <span style="color: darkkhaki">&#160;&#160;&#160;&#160;BOOTSTRAP&#x2714;</span>
+            </li>
+            <br />
 
-              <li>
-                <span style="color: darkkhaki"><i></i>SQL SERVER&#x2714;</span>
-                <span style="color: darkkhaki ">&#160;&#160;&#160;&#160;ORACLE&#x2714;</span>
-                <span style="color: darkkhaki ">&#160;&#160;&#160;&#160;MONGODB&#x2714;</span>
-                <span style="color: darkkhaki ">&#160;&#160;&#160;&#160;MYSQL&#x2714;</span>
-                <span style="color: darkkhaki ">&#160;&#160;&#160;&#160;DB2 (IBM)&#x2714;</span>
-              </li>
-              <br />
+            <li>
+              <span style="color: darkkhaki"><i></i>SQL SERVER&#x2714;</span>
+              <span style="color: darkkhaki ">&#160;&#160;&#160;&#160;ORACLE&#x2714;</span>
+              <span style="color: darkkhaki ">&#160;&#160;&#160;&#160;MONGODB&#x2714;</span>
+              <span style="color: darkkhaki ">&#160;&#160;&#160;&#160;MYSQL&#x2714;</span>
+              <span style="color: darkkhaki ">&#160;&#160;&#160;&#160;DB2 (IBM)&#x2714;</span>
+            </li>
+            <br />
 
-              <li>
-                <span style="color: darkkhaki"><i></i>AZURE&#x2714;</span>
-                <span style="color: darkkhaki">&#160;&#160;&#160;&#160;GITHUB&#x2714;</span>
-                <span style="color: darkkhaki">&#160;&#160;&#160;&#160;GIT&#x2714;</span>
-                <span style="color: darkkhaki">&#160;&#160;&#160;&#160;BI&#x2714;</span>
-                <span style="color: darkkhaki">&#160;&#160;&#160;&#160;GITKRAKEN&#x2714;</span>
-                <span style="color: darkkhaki">&#160;&#160;&#160;&#160;DISCORD API&#x2714;</span>
-              </li>
-              <br />
+            <li>
+              <span style="color: darkkhaki"><i></i>AZURE&#x2714;</span>
+              <span style="color: darkkhaki">&#160;&#160;&#160;&#160;GITHUB&#x2714;</span>
+              <span style="color: darkkhaki">&#160;&#160;&#160;&#160;GIT&#x2714;</span>
+              <span style="color: darkkhaki">&#160;&#160;&#160;&#160;BI&#x2714;</span>
+              <span style="color: darkkhaki">&#160;&#160;&#160;&#160;GITKRAKEN&#x2714;</span>
+              <span style="color: darkkhaki">&#160;&#160;&#160;&#160;DISCORD API&#x2714;</span>
+            </li>
+            <br />
 
-            </ul>
           </ul>
-        </div>
-      </section>
-      <hr class="m-0" />
+        </ul>
+      </div>
+    </section>
+    <hr class="m-0" />
 
 
-      <!-- Languages-->
-      <section class="resume-section" id="awards">
-        <div class="resume-section-content">
-          <div class="module"><h2 class="display-4" style="color:white">Languages</h2></div><br /><br />
-          <br />
-          <br />
-          <table class="table table-striped table-bordered table-hover table-sm">
-            <thead>
-              <tr style="color:white" align="center">
-                <th> Language </th>
-                <th> Speaking </th>
-                <th> Writing </th>
-                <th> Reading </th>
-              </tr>
-            </thead>
-            <tbody align="center">
-              <tr class="table-success">
-                <td> Spanish</td>
-                <td> Mother tongue</td>
-                <td>  </td>
-                <td> </td>
+    <!-- Languages-->
+    <section class="resume-section" id="awards">
+      <div class="resume-section-content">
+        <div class="module"><h2 class="display-4" style="color:white">Languages</h2></div><br /><br />
+        <br />
+        <br />
+        <table class="table table-striped table-bordered table-hover table-sm">
+          <thead>
+            <tr style="color:white" align="center">
+              <th> Language </th>
+              <th> Speaking </th>
+              <th> Writing </th>
+              <th> Reading </th>
+            </tr>
+          </thead>
+          <tbody align="center">
+            <tr class="table-success">
+              <td> Spanish</td>
+              <td> Mother tongue</td>
+              <td>  </td>
+              <td> </td>
 
-              </tr>
-              <tr class="table-success">
-                <td> English </td>
-                <td> Excellent</td>
-                <td> Excellent</td>
-                <td> Excellent</td>
-              </tr>
-              <tr class="table-success">
-                <td> French </td>
-                <td> Excellent</td>
-                <td> Good</td>
-                <td> Excellent</td>
-              </tr>
-              <tr class="table-success">
-                <td> Dutch </td>
-                <td> Intermediate</td>
-                <td> Basic</td>
-                <td> Regular</td>
-              </tr>
-              <tr class="table-success">
-                <td> Catalan </td>
-                <td> Excellent</td>
-                <td> Regular</td>
-                <td> Excellent</td>
-              </tr>
-            </tbody>
-          </table>
+            </tr>
+            <tr class="table-success">
+              <td> English </td>
+              <td> Excellent</td>
+              <td> Excellent</td>
+              <td> Excellent</td>
+            </tr>
+            <tr class="table-success">
+              <td> French </td>
+              <td> Excellent</td>
+              <td> Good</td>
+              <td> Excellent</td>
+            </tr>
+            <tr class="table-success">
+              <td> Dutch </td>
+              <td> Intermediate</td>
+              <td> Basic</td>
+              <td> Regular</td>
+            </tr>
+            <tr class="table-success">
+              <td> Catalan </td>
+              <td> Excellent</td>
+              <td> Regular</td>
+              <td> Excellent</td>
+            </tr>
+          </tbody>
+        </table>
 
-        </div>
-      </section>
-      <!-- Interests-->
-      <section class="resume-section" id="interests">
-        <div class="resume-section-content" >
-          <!--<h2 style="color:white" class="mb-5">Interests</h2>-->
-          <div class="module"><h2 class="display-4" style="color:white">Interests</h2></div><br /><br />
-          <p style="color: darkkhaki">Apart from being a developer, I enjoy most of my time being outdoors. I enjoy biking, and playing UWH.</p>
-          <p style="color: darkkhaki" class="mb-0">I spend a large amount of my free time exploring the latest technology advancements.</p>
-          <br /><br /><br />
-          <!--<iframe width="560" height="315" src="https://www.youtube.com/watch?v=Hfidwf0XCCk" frameborder="0" allowfullscreen></iframe>-->
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/Hfidwf0XCCk" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </section>
-      <hr class="m-0" />
+      </div>
+    </section>
+    <!-- Interests-->
+    <section class="resume-section" id="interests">
+      <div class="resume-section-content">
+        <!--<h2 style="color:white" class="mb-5">Interests</h2>-->
+        <div class="module"><h2 class="display-4" style="color:white">Interests</h2></div><br /><br />
+        <p style="color: darkkhaki">Apart from being a developer, I enjoy most of my time being outdoors. I enjoy biking, and playing UWH.</p>
+        <p style="color: darkkhaki" class="mb-0">I spend a large amount of my free time exploring the latest technology advancements.</p>
+        <br /><br /><br />
+        <!--<iframe width="560" height="315" src="https://www.youtube.com/watch?v=Hfidwf0XCCk" frameborder="0" allowfullscreen></iframe>-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Hfidwf0XCCk" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+    <hr class="m-0" />
 
 
-    </div>
+  </div>
 
-  
-    <!-- Bootstrap core JS-->
-    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>-->
-    <!-- Core theme JS-->
-    <!--<script src="modal.js"></script>-->
+
+  <!-- Bootstrap core JS-->
+  <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>-->
+  <!-- Core theme JS-->
+  <script src="assets/js/animation.js"></script>
 </body>
 </html>
 
